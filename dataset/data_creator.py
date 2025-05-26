@@ -243,7 +243,7 @@ class exampleFunctions:
     def g1(data, *args):
         x = np.mean(data)
         return 0.25 * sin(x**2) + 0.25 * sin(2 * x) + 0.5 * sin(x)
-
+  
     @staticmethod
     def g2(data, *args):
         x = np.mean(data)
